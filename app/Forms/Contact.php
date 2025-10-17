@@ -66,7 +66,7 @@ class Contact extends BaseForm
             $data['unit'],
             $data['message']??""
         );
-        Mail::to('rorivera200@gmail.com')->send($mail);
+        Mail::to('miguelangel@blixid.com')->send($mail);
         return $this->redirect;
     }
 }
