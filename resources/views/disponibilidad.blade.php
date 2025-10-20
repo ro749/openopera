@@ -11,6 +11,12 @@ if(isset($init_unit)) {
         .table {
             border-color: #00000055 !important;
         }
+        #unidad-display {
+            color: black !important;
+        }
+        .plan-title {
+            color: #967754 !important;
+        }
     </style>
     @endpush
     @include('head')
@@ -32,7 +38,7 @@ if(isset($init_unit)) {
                     <div class="responsive-row" style="justify-content: end;">
                         <div class="unit-area" style="width:50%; margin-top:24px; display:none;">
                             <div class="floor-content" style="margin-left:36px;">
-                                <h1 style="font-size: 2.5rem !important;"><b>Unidad <x-f-text id="unidad" :unit="$init_unit"></x-f-text></b></h1>
+                                <h1 id="unidad-display" style="font-size: 2.5rem !important;"><b>Unidad <x-f-text id="unidad" :unit="$init_unit"></x-f-text></b></h1>
                                 <div style="">
                                     <div class="icono-container">
                                         <img class="icono" src="https://opera.propstudios.mx/Images/IconosCaracteristicas/Interior.png">
