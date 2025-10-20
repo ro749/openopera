@@ -21,8 +21,10 @@ class Plans extends PlansBase
                 title: 'Sin Plan',
                 discounts: 0,
                 lines: [],
-                price_tag: 'Precio',
-                total_tag: '',
+                price_tag: '',
+                total_tag: 'Precio',
+                total_on_top: true,
+                show_base_price: false
             ),
 
         );
