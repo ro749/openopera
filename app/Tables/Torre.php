@@ -39,7 +39,7 @@ class Torre extends BaseTable
                         display:"Tipo",
                     ),
                     "recamaras"=>new Column(
-                        display:"Recamaras",
+                        display:"Recámaras",
                     ),
 
                     "baños"=>new Column(display:"Baños"),
