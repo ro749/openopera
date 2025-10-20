@@ -16,7 +16,7 @@ if(isset($init_unit)) {
     @include('head')
     <body>
         @include('header')
-        <div style="display:flex; flex-direction: row;">
+        <div class="responsive-row">
             <div style="width:40%;">
                 @if(isset($imp))
                 <div id="image-map-pro-tower"></div>
@@ -25,11 +25,11 @@ if(isset($init_unit)) {
                 @endif
             </div>
             <div style="width:60%;">
-                <div class="floor-cover" style="display:flex; align-items: center; justify-content: center; height:100%;">
+                <div class="floor-cover no-phone" style="display:flex; align-items: center; justify-content: center; height:100%;">
                     <img style="width:50%;" src="https://opera.propstudios.mx/Images/Opera Dorado.png" alt="">
                 </div>
                 <div class="floor" style="display:flex; flex-direction: column; height:100%;">
-                    <div style="display:flex; flex-direction: row; justify-content: end;">
+                    <div class="responsive-row" style="justify-content: end;">
                         <div class="unit-area" style="width:50%; margin-top:24px; display:none;">
                             <div class="floor-content" style="width:50%; margin-left:36px;">
                                 <h1 style="font-size: 2.5rem !important;">Unidad <x-f-text id="unidad" :unit="$init_unit"></x-f-text></h1>
