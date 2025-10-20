@@ -80,7 +80,7 @@ if(isset($init_unit)) {
                             @if(isset($imp))
                             <div id="image-map-pro-floor"></div>
                             @else
-                            <img src="https://opera.propstudios.mx/Images/Ubicaciones/Planta/{{ $init_unit->nivel }}.png">
+                            <img src="https://opera.propstudios.mx/Images/Ubicaciones/Planta/{{ $init_unit->tipo }}.png">
                             @endif
                         </div>
                     </div>
