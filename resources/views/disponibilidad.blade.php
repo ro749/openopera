@@ -31,8 +31,8 @@ if(isset($init_unit)) {
                 <div class="floor" style="display:flex; flex-direction: column; height:100%;">
                     <div class="responsive-row" style="justify-content: end;">
                         <div class="unit-area" style="width:50%; margin-top:24px; display:none;">
-                            <div class="floor-content" style="width:50%; margin-left:36px;">
-                                <h1 style="font-size: 2.5rem !important;">Unidad <x-f-text id="unidad" :unit="$init_unit"></x-f-text></h1>
+                            <div class="floor-content" style="margin-left:36px;">
+                                <h1 style="font-size: 2.5rem !important;"><b>Unidad <x-f-text id="unidad" :unit="$init_unit"></x-f-text></b></h1>
                                 <div style="">
                                     <div class="icono-container">
                                         <img class="icono" src="https://opera.propstudios.mx/Images/IconosCaracteristicas/Interior.png">
