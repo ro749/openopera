@@ -91,7 +91,9 @@ if(isset($init_unit)) {
                 
             </div>
         </div>
+        
         <div id="plans" style="display:none; background-color: #681a0e;">
+            <h1 style="text-align: center; padding-top: 36px; color:#967754; font-weight: 500; font-size: 2.5rem !important;" >POLÍTICAS DE PAGO</h1>
         @include('listing-utils::Plans.plans',['plans'=>$plans])
         </div>
         <img class="no-phone" src="https://opera.propstudios.mx/Images/Escritorio/Torre.jpg" style="width:100%;">
