@@ -119,7 +119,7 @@ if(isset($init_unit)) {
         <img class="just-phone" src="https://opera.propstudios.mx/Images/Movil/Mapa.jpg" style="width:100%;">
         <img class="just-phone" src="https://opera.propstudios.mx/Images/Movil/Patrimonio.jpg" style="width:100%;">
         <x-smartForm :form="$form" style="margin: 1rem; margin-top:3rem; display: flex; flex-direction: column; gap: 1rem; align-items: center;">
-            <div><p style="font-size: 3rem;"><b>Contactanos</b></p></div>
+            <div><p style="font-size: 3rem;"><b>Contáctanos</b></p></div>
             <x-field name="name" :form="$form"/>
             <div style="display:flex; flex-direction:row; gap: 1rem; width: 100%;">
                 <x-field name="email" :form="$form"/>
@@ -131,6 +131,7 @@ if(isset($init_unit)) {
                 {{ $form->submit_text }}
             </button>
         </x-smartForm>
+        @include('footer')
     </body>
     @include('scripts')
 </html>
