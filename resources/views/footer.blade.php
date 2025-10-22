@@ -1,4 +1,4 @@
-<footer class="section-dark" style="background-color:#79402c !important;">
+<footer class="section-dark" style="background-color:#681b0f !important;">
         <div class="container">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8">
