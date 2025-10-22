@@ -3,7 +3,7 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center">
-                        <img src="https://propstudios.mx/img/distritoterra/Logos/Logow.png" class="w-200px" alt="">
+                        <img src="https://opera.propstudios.mx/Images/Logos/logo" class="w-200px" alt="">
                             <p style="text-align: center">Av. Universidad 2558. CP. 45110</p>
                     </div>
                 </div>                
